@@ -1,4 +1,3 @@
-# Functional approach
 def clean_text(text):
     return text.strip().lower()
 
@@ -8,7 +7,6 @@ def remove_punctuation(text):
 result = remove_punctuation(clean_text("  Hello, World.  "))
 print(result)
 
-# OOP approach
 class TextProcessor:
     def __init__(self, text):
         self.text = text

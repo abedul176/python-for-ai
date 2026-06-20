@@ -1,4 +1,4 @@
-﻿import os
+import os
 
 print("Current directory:", os.getcwd())
 
